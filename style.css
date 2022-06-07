@@ -1,0 +1,117 @@
+.headingowo {
+    color: #ffffff;
+    font-family: Comic Sans MS;
+    background-color: rgb(44, 99, 209);
+    margin: 0;
+    padding: 10px;
+  }
+  .headingowo:hover {
+    background-color: rgb(241, 70, 159);
+    transition-duration: 400ms;
+  }
+  
+  .headinguwu {
+    color: #ffffff;
+    font-family: Comic Sans MS;
+    background-color: rgb(139, 42, 133);
+    margin: 5px 5px 0px;
+    padding: 10px;
+  }
+  
+  .paragraph {
+    color: #ffffff;
+    font-family: Comic Sans MS;
+    background-color: rgb(241, 70, 159);
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+  }
+  
+  .colour {
+    color: #ffffff;
+    font-family: Comic Sans MS;
+    background-color: #49c7e3;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .picture {
+    display: inline-block;
+    position: relative;
+    width: min-content;
+    height: 60px;
+  }
+  
+  .topText {
+    position: relative;
+    width: 100%;
+  }
+  
+  .mainTop {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .mainTop {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sign {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 70, 159);
+  }
+  
+  .scorpio {
+    position: relative;
+  }
+  
+  .CHINA {
+    height: 66px;
+    width: 100px;
+  }
+  
+  .signPic {
+    height: 43px;
+    width: 43px;
+  }
+  
+  .buttonlmao {
+    width: 200px;
+    height: 200px;
+  }
+  .buttonlmao:hover {
+    background: url(https://c.tenor.com/yheo1GGu3FwAAAAM/rick-roll-rick-ashley.gif);
+  }
+  .headingTvT {
+    color: #ffffff;
+    font-family: Comic Sans MS;
+    background-color: rgb(139, 42, 133);
+    margin: 5px 5px 0px 5px;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  
+  .expandSymbol {
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+    width: 30px;
+    height: 40px;
+    background-color: rgb(241, 70, 159);
+    
+  }
+  
+  .noMargin {
+    margin: 0px;
+  
+  }
+  
+  .bodymate {
+    background-color: #000000ec;
+    text-align: left;
+  }
+  
