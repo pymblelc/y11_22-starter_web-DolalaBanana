@@ -76,13 +76,6 @@
     width: 43px;
   }
   
-  .buttonlmao {
-    width: 200px;
-    height: 200px;
-  }
-  .buttonlmao:hover {
-    background: url(https://c.tenor.com/yheo1GGu3FwAAAAM/rick-roll-rick-ashley.gif);
-  }
   .headingTvT {
     color: #ffffff;
     font-family: Comic Sans MS;
@@ -114,4 +107,15 @@
     background-color: #000000ec;
     text-align: left;
   }
-  
+
+  .buttonDown {
+    background-color: rgb(241, 70, 159);  
+
+  }
+
+  .buttonDownDiv {
+    margin: 0px 3px 0px -6px;
+  }
+  .chineseFlag {
+    margin-bottom: -4px;
+  }
