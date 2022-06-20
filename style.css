@@ -141,4 +141,16 @@
   background-color: rgb(25, 8, 66);
   padding: 20px;
   border-radius: 10px;
+  margin: 40px 0px 0px 0px;
+}
+
+.THETITLE {
+   top: 0%;
+   color: #ffffff;
+   font-family: Comic Sans MS;
+   background-color: rgb(44, 99, 209);
+   margin: 0;
+   padding: 10px;
+   border-radius: 5px;
+   position: absolute;
 }
