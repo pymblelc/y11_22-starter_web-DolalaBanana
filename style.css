@@ -1,6 +1,5 @@
 .headingowo {
   color: #ffffff;
-  font-family: Comic Sans MS;
   background-color: rgb(44, 99, 209);
   margin: 0;
   padding: 10px;
@@ -9,7 +8,6 @@
 
 .headingowo2 {
   color: #ffffff;
-  font-family: Comic Sans MS;
   background-color: rgb(44, 99, 209);
   margin: 0;
   padding: 10px;
@@ -22,7 +20,6 @@
 
 .headinguwu {
   color: #ffffff;
-  font-family: Comic Sans MS;
   background-color: rgb(139, 42, 133);
   margin: 5px 5px 0px;
   padding: 10px;
@@ -31,7 +28,6 @@
 
 .paragraph {
   color: #ffffff;
-  font-family: Comic Sans MS;
   background-color: rgb(241, 70, 159);
   margin: 0px 0px 0px 0px;
   padding: 10px;
@@ -40,7 +36,6 @@
 
 .colour {
   color: #ffffff;
-  font-family: Comic Sans MS;
   background-color: #49c7e3;
   margin: 0;
   padding: 20px;
@@ -93,7 +88,6 @@
 
 .headingTvT {
   color: #ffffff;
-  font-family: Comic Sans MS;
   background-color: rgb(139, 42, 133);
   margin: 5px 5px 0px 5px;
   padding: 0px 0px 0px 10px;
@@ -122,7 +116,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #80d2e4;
+  background-color: #0dff00;
+  font-family: Comic Sans MS;
 }
 
 .buttonDown {
@@ -145,12 +140,11 @@
 }
 
 .THETITLE {
-   top: 0%;
-   color: #ffffff;
-   font-family: Comic Sans MS;
-   background-color: rgb(44, 99, 209);
-   margin: 0;
-   padding: 10px;
-   border-radius: 5px;
-   position: absolute;
+  top: 0%;
+  color: #ffffff;
+  background-color: rgb(44, 99, 209);
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
 }
