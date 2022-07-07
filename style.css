@@ -1,26 +1,53 @@
+.bodymate {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  background-image:  linear-gradient(30deg, #e0f3f7 12%, transparent 12.5%, transparent 87%, #e0f3f7 87.5%, #e0f3f7), linear-gradient(150deg, #e0f3f7 12%, transparent 12.5%, transparent 87%, #e0f3f7 87.5%, #e0f3f7), linear-gradient(30deg, #e0f3f7 12%, transparent 12.5%, transparent 87%, #e0f3f7 87.5%, #e0f3f7), linear-gradient(150deg, #e0f3f7 12%, transparent 12.5%, transparent 87%, #e0f3f7 87.5%, #e0f3f7), linear-gradient(60deg, rgba(224,243,247,0.5) 25%, transparent 25.5%, transparent 75%, rgba(224,243,247,0.5) 75%, rgba(224,243,247,0.5)), linear-gradient(60deg, rgba(224,243,247,0.5) 25%, transparent 25.5%, transparent 75%, rgba(224,243,247,0.5) 75%, rgba(224,243,247,0.5));
+  background-size: 92px 161px;
+  background-position: 0 0, 0 0, 46px 80.5px, 46px 80.5px, 0 0, 46px 80.5px;
+  background-color: #baa4fb;
+
+
+
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .headingowo {
   color: #ffffff;
-  background-color: rgb(44, 99, 209);
+  background-color: rgb(41, 25, 119);
   margin: 0;
   padding: 10px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .headingowo2 {
   color: #ffffff;
-  background-color: rgb(44, 99, 209);
+  background-color: rgb(41, 25, 119);
   margin: 0;
   padding: 10px;
 }
 
 .headingowo:hover {
-  background-color: rgb(241, 70, 159);
+  background-color: rgb(177, 28, 105);
   transition-duration: 400ms;
 }
 
 .headinguwu {
   color: #ffffff;
-  background-color: rgb(139, 42, 133);
+  background-color: rgb(86, 3, 80);
   margin: 5px 5px 0px;
   padding: 10px;
   border-radius: 5px 5px 0px 0px;
@@ -28,7 +55,7 @@
 
 .paragraph {
   color: #ffffff;
-  background-color: rgb(241, 70, 159);
+  background-color: rgb(177, 28, 105);
   margin: 0px 0px 0px 0px;
   padding: 10px;
   border-radius: 5px;
@@ -47,6 +74,7 @@
   position: relative;
   width: min-content;
   height: 60px;
+  border-radius: 5px;
 }
 
 .topText {
@@ -67,7 +95,7 @@
 .sign {
   display: flex;
   flex-direction: row;
-  background-color: rgb(241, 70, 159);
+  background-color: rgb(177, 28, 105);
   border-radius: 5px;
 }
 
@@ -88,7 +116,7 @@
 
 .headingTvT {
   color: #ffffff;
-  background-color: rgb(139, 42, 133);
+  background-color: rgb(86, 3, 80);
   margin: 5px 5px 0px 5px;
   padding: 0px 0px 0px 10px;
   display: flex;
@@ -104,47 +132,78 @@
   padding: 10px 0px 0px 10px;
   width: 30px;
   height: 40px;
-  background-color: rgb(241, 70, 159);
+  background-color: rgb(177, 28, 105);
 }
 
 .noMargin {
-  margin: 0px;
-}
-
-.bodymate {
-  text-align: left;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #0dff00;
-  font-family: Comic Sans MS;
+  margin: 14px 0px 0px 0px;
 }
 
 .buttonDown {
-  background-color: rgb(241, 70, 159);
+  background-color: rgb(177, 28, 105);
   border-radius: 5px;
+  padding-top: 20px;
 }
 
-.buttonDownDiv {
-  margin: 0px 3px 0px -6px;
-}
 .chineseFlag {
   margin-bottom: -4px;
 }
 .BIGDIV {
   width: 600px;
-  background-color: rgb(25, 8, 66);
+  background-color: rgb(16, 2, 49, 0.9);
   padding: 20px;
   border-radius: 10px;
   margin: 40px 0px 0px 0px;
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(17, 47, 83, 0.394);
+  -webkit-box-shadow: 16px 15px 2px 0 #ddd;
+  -moz-box-shadow: 16px 15px 2px 0 #ddd;
+  box-shadow: 16px 15px 2px 0 rgb(62, 50, 80, 0.8);
 }
 
 .THETITLE {
   top: 0%;
   color: #ffffff;
-  background-color: rgb(44, 99, 209);
+  background-color: rgb(41, 25, 119);
   margin: 0;
   padding: 10px;
   border-radius: 5px;
   position: absolute;
+}
+
+.backButton {
+  left: 5px;
+  top: 0px;
+  position: absolute;
+  padding: 10px;
+  background-color: rgb(139, 42, 133);
+  border-radius: 5px;
+}
+
+.material-symbols-outlined {
+  margin: 0px 0px 0px 0px;
+  color: #02000e;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlined:hover {
+  color: white;
+  font-size: 26px;
+}
+.btnEnterProjects {
+  background-color: rgb(41, 25, 119);
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+.smallDivinPages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnEnterProjects:hover {
+  height: 104px;
+  width: 104px;
+  text-shadow: #49c7e3;
 }

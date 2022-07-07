@@ -1,0 +1,40 @@
+.bodymate {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    background-image:  linear-gradient(30deg, #e0f3f7 12%, transparent 12.5%, transparent 87%, #e0f3f7 87.5%, #e0f3f7), linear-gradient(150deg, #e0f3f7 12%, transparent 12.5%, transparent 87%, #e0f3f7 87.5%, #e0f3f7), linear-gradient(30deg, #e0f3f7 12%, transparent 12.5%, transparent 87%, #e0f3f7 87.5%, #e0f3f7), linear-gradient(150deg, #e0f3f7 12%, transparent 12.5%, transparent 87%, #e0f3f7 87.5%, #e0f3f7), linear-gradient(60deg, rgba(224,243,247,0.5) 25%, transparent 25.5%, transparent 75%, rgba(224,243,247,0.5) 75%, rgba(224,243,247,0.5)), linear-gradient(60deg, rgba(224,243,247,0.5) 25%, transparent 25.5%, transparent 75%, rgba(224,243,247,0.5) 75%, rgba(224,243,247,0.5));
+    background-size: 92px 161px;
+    background-position: 0 0, 0 0, 46px 80.5px, 46px 80.5px, 0 0, 46px 80.5px;
+    background-color: #baa4fb;
+  }
+  .BIGDIV {
+    width: 600px;
+    background-color: rgb(16, 2, 49, 01);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px 0px 0px 0px;
+    border: 1px solid rgba(17, 47, 83, 0.394);
+    justify-content: left;
+    display: flex;
+
+
+  }
+  
+  .imgDiv {
+    width: 200px;
+    height: 200px;
+  }
+  .para {
+    color: antiquewhite;
+  }
+  .headingowo {
+    color: #ffffff;
+    background-color: rgb(41, 25, 119);
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
