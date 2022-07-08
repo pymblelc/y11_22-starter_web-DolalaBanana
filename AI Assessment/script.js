@@ -1,16 +1,16 @@
-let myImage = document.getElementById("myPhoto");
-let myButton = document.getElementById("btnAnalyse");
 let results = document.getElementById("myText");
-let myImage2 = document.getElementById("myPhoto2");
-let myButton2 = document.getElementById("btnAnalyse2");
 let results2 = document.getElementById("myText2");
-let Submit = document.getElementById("Submit");
 let imgDiv1 = document.getElementById("imgDiv1");
+
+let twoPic = document.getElementById("twoPic");
+
 
 var faces;
 let sendToAPI = false;
 //let backButtonAI = document.getElementById("backButtonAITest");
 
+
+/* THIS WAS TEST
 let imageURL2 = myImage2.src;
 myButton.addEventListener("click", function () {
   if (sendToAPI == false) {
@@ -58,7 +58,7 @@ Submit.addEventListener("click", function () {
   console.log(faces);
   results.innerHTML += `haircol: ${faces[0].haircol.color}`;
 });
-/*
+
 [0].haircol.color
 backButtonAI.addEventListener("click", function () {
   window.location.href = "../Pages/Pages.html";
@@ -70,13 +70,6 @@ document.getElementById("test1").addEventListener("click", function () {
   let blob = new Blob([fileInput.files[0]]);
   ImageAPI.analyseFacesBlob(blob, function (data) {
     console.log(data);
-    /*
-    imgDiv1.innerHTML = `<img class= para
-    id="myPhoto2"
-    width="200"
-    src="${fileReader.readAsDataURL(fileInput.files[0])}"
-    alt="a photo"
-    />`;*/
 
     let fileReader = new FileReader();
     fileReader.onload = function (e) {
@@ -86,3 +79,23 @@ document.getElementById("test1").addEventListener("click", function () {
     console.log(fileReader);
   });
 });
+
+document.getElementById("test2").addEventListener("click", function () {
+  let fileInput2 = document.getElementById("upload2");
+  let blob = new Blob([fileInput2.files[0]]);
+  ImageAPI.analyseFacesBlob(blob, function (data) {
+    console.log(data);
+
+    let fileReader2 = new FileReader();
+    fileReader2.onload = function (e) {
+      document.getElementById("preview2").src = e.target.result;
+    };
+    fileReader2.readAsDataURL(fileInput2.files[0]);
+    console.log(fileReader2);
+  });
+});
+
+twoPic.addEventListener("click", function () {
+    window.location.href = "AI.html"
+});
+

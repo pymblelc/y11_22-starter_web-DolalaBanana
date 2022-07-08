@@ -4,6 +4,7 @@ let results = document.getElementById("myText");
 let backButtonAI = document.getElementById("backButtonAITest");
 
 
+
 let imageURL = myImage.src;
 
 myButton.addEventListener("click", function () {
@@ -23,6 +24,5 @@ myButton.addEventListener("click", function () {
   });
 });
 
-backButtonAI.addEventListener("click", function () {
-  window.location.href = "../Pages/Pages.html";
-});
+
+
