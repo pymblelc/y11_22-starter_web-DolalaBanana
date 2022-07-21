@@ -2,8 +2,8 @@
   text-align: left;
   display: flex;
   flex-wrap: wrap;
-
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
   background-image: linear-gradient(
       30deg,
@@ -66,7 +66,6 @@
   border: 1px solid rgba(17, 47, 83, 0.394);
   justify-content: space-between;
   display: flex;
-
 }
 .BIGDIVSTART {
   width: 600px;
@@ -78,7 +77,23 @@
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+}
+.BIGDIVRESULT {
+  width: 600px;
+  background-color: rgb(16, 2, 49, 01);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px 0px 0px 0px;
+  border: 1px solid rgba(17, 47, 83, 0.394);
+  justify-content: left;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.BIGDIVRESULT .results {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
 }
 
 .imgDiv {
@@ -96,8 +111,7 @@
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-  width: 550px;
-
+  width: 100%;
 }
 
 .image1 {
@@ -109,24 +123,22 @@
 .Abutton {
   color: rgb(0, 0, 0);
   padding: 10px;
-  margin : -10px 0px -10px 0px;
+  margin: -10px 0px -10px 0px;
   background-color: #baa6f3;
   width: 300px;
-  border: 1px;
 }
 .Sbutton {
   color: rgb(0, 0, 0);
   padding: 10px;
-  margin : -10px 0px -10px 0px;
-  background-color: #8f68c6;
+  margin: -10px 0px -10px 0px;
+  background-color: rgb(163, 158, 229);
   width: 300px;
-  border: 1px;
 }
 .uploadbtn {
   color: rgb(0, 0, 0);
   padding: 10px;
-  margin : -10px 0px -10px 0px;
-  background-color: #baa6f3;
+  margin: -10px 0px -10px 0px;
+  background-color: #d9cbed;
   width: 280px;
 }
 
@@ -134,5 +146,128 @@
   width: 280px;
   height: 50px;
   color: #000000;
+  background-color: #d9cbed;
+  border-radius: 20px;
+}
+
+.THETITLE {
+  top: 0%;
+  color: #ffffff;
+  background-color: rgb(41, 25, 119);
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.AnalyseBTN {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: -10px 0px -10px 0px;
   background-color: #8f68c6;
+  width: 300px;
+  border-width: 5px;
+  border-color: rgb(108, 73, 190);
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.backButton {
+  left: 5px;
+  top: 0px;
+  position: absolute;
+  padding: 10px;
+  background-color: rgb(41, 25, 119);
+  border-radius: 5px;
+}
+
+.backButton:hover {
+  color: white;
+  width: 50px;
+}
+.clock {
+  color: #ffffff;
+  background-color: rgb(41, 25, 119);
+  margin: 3% 0px 0px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  font-size: 30px;
+
+}
+.Pizza {
+  color: #ffffff;
+  background-color: rgb(41, 25, 119);
+  margin: 3% 0px 0px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  font-size: 15px;
+  
+}
+.Pizza:hover {
+  background: linear-gradient(
+    124deg,
+    #ff2400,
+    #e81d1d,
+    #e8b71d,
+    #e3e81d,
+    #1de840,
+    #1ddde8,
+    #2b1de8,
+    #dd00f3,
+    #dd00f3
+  );
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
 }

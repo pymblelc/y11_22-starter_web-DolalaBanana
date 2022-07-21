@@ -1,3 +1,4 @@
+//!! hi :D
 const PIXABAY_URL = "https://pixabay.com/api/?key=9054397-010427f0eb2adc019d523491f";
 const ACS_URL = "https://sddcognitiveservices.cognitiveservices.azure.com";
 const ACS_KEY = "6cdde304144f4e21ac9495a8847dd44e";

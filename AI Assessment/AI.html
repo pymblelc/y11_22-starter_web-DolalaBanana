@@ -16,10 +16,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="AI.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 
     <script src="ai.js" defer></script>
     <script src="script.js" defer></script>
-    <script src="../Pages/Pages.js" defer></script>
 
     <link
       rel="stylesheet"
@@ -43,15 +44,18 @@
     [endif]-->
   </head>
   <body class="bodymate">
-    <!--
 
-    <button class="backButton" id="backButtonAITest">
+    <!-- This is the button to go back to the Start -->
+    <button class="backButton" id="backButtonAI">
       <span class="material-symbols-outlined"> arrow_back_ios </span>
     </button>
-  -->
+
+    
+    <h3 class="THETITLE">Upload Two Pictures of One Person:</h3>
+
     <div class="BIGDIV">
       <p class="imgDiv" id="imgDiv1">
-        <img class= "image1" id= "preview" src="" alt="Upload a Picture">
+        <img class="image1" id="preview" src="" alt="Upload a Picture" />
       </p>
 
       <div>
@@ -59,17 +63,14 @@
           <input type="file" id="upload" class="uploadbtn" />
         </p>
         <p>
-          <button id="test1" class="Sbutton" >Submit</button>
+          <button id="SButton1" class="Sbutton">Submit</button>
         </p>
-
       </div>
-
-      <p id="myText"></p>
     </div>
 
     <div class="BIGDIV">
       <p class="imgDiv" id="imgDiv2">
-        <img class= "image1" id= "preview2" src="" alt="Upload a Picture">
+        <img class="image1" id="preview2" src="" alt="Upload a Picture" />
       </p>
 
       <div>
@@ -77,12 +78,34 @@
           <input type="file" id="upload2" class="uploadbtn" />
         </p>
         <p>
-          <button id="test2" class="Sbutton" >Submit</button>
+          <button id="test2" class="Sbutton">Submit</button>
         </p>
-
       </div>
+    </div>
+    <button id="AnalyseBTN" class="AnalyseBTN">Analyse</button>
 
-      <p id="myText"></p>
+    <div class="BIGDIVRESULT">
+      <h3 class="headingowo">Similarity Results:</h3>
+      <div class="results">
+        <div id="Similarity Comparison" class="para">
+          <p id="simPara"></p>
+        </div>
+        <div id="simPara2" class="para">
+          <p id="simPara2"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="BIGDIVRESULT">
+      <h3 class="headingowo">Results:</h3>
+      <div class="results">
+        <div id="result1" class="para">
+          <h4>Person 1 Results</h4>
+        </div>
+        <div id="result2" class="para">
+          <h4>Person 2 Results</h4>
+        </div>
+      </div>
     </div>
   </body>
 </html>
