@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="AI.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+    <script src="ai.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!--[if gte mso 9
+      ]><xml>
+        <mso:CustomDocumentProperties>
+          <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers
+            msdt:dt="string"
+            >11 Software Design and Development 01-2022
+            Members</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers
+          >
+          <mso:SharedWithUsers msdt:dt="string"
+            >7;#11 Software Design and Development 01-2022
+            Members</mso:SharedWithUsers
+          >
+        </mso:CustomDocumentProperties>
+      </xml><!
+    [endif]-->
+  </head>
+  <body class="bodymate">
+
+    <!-- This is the button to go back to the Start -->
+    <button class="backButton" id="backButtonAI">
+      <span class="material-symbols-outlined"> arrow_back_ios </span>
+    </button>
+
+    
+    <h3 class="THETITLE">Upload Two Pictures of One Person:</h3>
+
+    <div class="BIGDIV">
+      <p class="imgDiv" id="imgDiv1">
+        <img class="image1" id="preview" src="" alt="Upload a Picture" />
+      </p>
+
+      <div>
+        <p>
+          <input type="file" id="upload" class="uploadbtn" />
+        </p>
+        <p>
+          <button id="SButton1" class="Sbutton">Submit</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="BIGDIV">
+      <p class="imgDiv" id="imgDiv2">
+        <img class="image1" id="preview2" src="" alt="Upload a Picture" />
+      </p>
+
+      <div>
+        <p>
+          <input type="file" id="upload2" class="uploadbtn" />
+        </p>
+        <p>
+          <button id="test2" class="Sbutton">Submit</button>
+        </p>
+      </div>
+    </div>
+    <button id="AnalyseBTN" class="AnalyseBTN">Analyse</button>
+
+    <div class="BIGDIVRESULT">
+      <h3 class="headingowo">Similarity Results:</h3>
+      <div class="results">
+        <div id="Similarity Comparison" class="para">
+          <p id="simPara"></p>
+        </div>
+        <div id="simPara2" class="para">
+          <p id="simPara2"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="BIGDIVRESULT">
+      <h3 class="headingowo">Results:</h3>
+      <div class="results">
+        <div id="result1" class="para">
+          <h4>Person 1 Results</h4>
+        </div>
+        <div id="result2" class="para">
+          <h4>Person 2 Results</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- beepboopbop -->

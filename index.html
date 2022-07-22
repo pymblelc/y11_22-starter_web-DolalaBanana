@@ -1,18 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>Starter Website</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-    <!-- Style -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Script -->
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+ 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="main.js" defer></script>
   </head>
-  <body>
-    <!-- Here's your starter project! Enjoy! -->
+  <body class="bodymate">
+    <h3 class="THETITLE">WELCOME TO MY BIO</h3>
+
+    <div class="BIGDIV">
+      <h1 class="headingowo">WHO AM I?</h1>
+
+      <div class="mainTop">
+        <div class="topText">
+          <h3 class="headinguwu">My Name:</h3>
+          <p class="paragraph">Dora Xia</p>
+
+          <h3 class="headinguwu">My Age:</h3>
+          <p class="paragraph">16</p>
+
+          <h3 class="headinguwu">My Favourite Colour:</h3>
+        </div>
+        <div class="picture">
+          <img
+            src="https://i.postimg.cc/GtVKRZ6m/me-owo.jpg"
+            alt="A picture of me:D"
+          />
+        </div>
+      </div>
+
+      <p class="colour"></p>
+
+      <h3 class="headinguwu">My height:</h3>
+
+      <p class="paragraph">173cm</p>
+
+      <h3 class="headinguwu">My sign:</h3>
+
+      <div class="sign">
+        <div class="scorpio">
+          <p class="paragraph">Scorpio</p>
+        </div>
+        <div class="signPic">
+          <img
+            src="data:image/png;base64,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"
+            class="signPic"
+            alt="Scorpio sign"
+          />
+        </div>
+      </div>
+
+      <h3 class="headinguwu">What's my nationality?</h3>
+
+      <div class="sign">
+        <div class="scorpio">
+          <p class="paragraph">
+            Chinese :D - I was born in Shanghai, but my parents aren't from
+            there.
+          </p>
+        </div>
+        <div class="chineseFlag">
+          <img
+            src="data:image/png;base64,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"
+            class="CHINA"
+            alt="Chinese Flag"
+          />
+        </div>
+      </div>
+
+      <div class="headingTvT">
+        <h3 class="noMargin">Here's some of my projects :D</h3>
+        <button class="buttonDown" id="myExpandButton">
+          <div class="buttonDownDiv">
+            <span class="material-symbols-outlined"> forward </span>
+          </div>
+        </button>
+      </div>
+    </div>
   </body>
 </html>
+
+<!-- beepboopbop -->
