@@ -9,7 +9,7 @@ let checkItOut2 = document.getElementById("checkItOutbtn2");
 
 
 backButton.addEventListener("click", function () {
-  window.location.href = "../main.html";
+  window.location.href = "../index.html";
 });
 
 //?????? 
